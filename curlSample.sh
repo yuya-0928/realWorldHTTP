@@ -23,3 +23,6 @@ curl --http1.0 -c cookie.txt -b cookie.txt -b "name=value" http://example.com/he
 
 # 52p
 curl 
+
+# 85
+curl -G --data-urlencode "query=hello world" http://localhost:18888
