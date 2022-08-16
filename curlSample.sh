@@ -23,3 +23,15 @@ curl --http1.0 -c cookie.txt -b cookie.txt -b "name=value" http://example.com/he
 
 # 52p
 curl 
+
+# P87
+curl -d test=value http://localhost:18888
+
+# p88
+curl -T main.go -H "Content-Type: text/plain" http://localhost:18888
+
+# p89
+curl -F "name=Michael Jackson" -F "thumbnail=@photo.jpg" http://localhost:18888
+
+# p97
+curl -X DELETE http://localhost:18888
