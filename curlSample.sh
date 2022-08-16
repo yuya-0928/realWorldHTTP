@@ -24,6 +24,7 @@ curl --http1.0 -c cookie.txt -b cookie.txt -b "name=value" http://example.com/he
 # 52p
 curl 
 
+<<<<<<< HEAD
 # P87
 curl -d test=value http://localhost:18888
 
@@ -35,3 +36,7 @@ curl -F "name=Michael Jackson" -F "thumbnail=@photo.jpg" http://localhost:18888
 
 # p97
 curl -X DELETE http://localhost:18888
+=======
+# 85
+curl -G --data-urlencode "query=hello world" http://localhost:18888
+>>>>>>> 2bc261dd9d5e3c3c11bf310a3692631dc097633a
