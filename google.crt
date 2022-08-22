@@ -1,0 +1,83 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/CN=www.google.com
+   i:/C=US/O=Google Trust Services LLC/CN=GTS CA 1C3
+ 1 s:/C=US/O=Google Trust Services LLC/CN=GTS CA 1C3
+   i:/C=US/O=Google Trust Services LLC/CN=GTS Root R1
+ 2 s:/C=US/O=Google Trust Services LLC/CN=GTS Root R1
+   i:/C=BE/O=GlobalSign nv-sa/OU=Root CA/CN=GlobalSign Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFUzCCBDugAwIBAgIQG1OY7ZjowzcS0aH5mAmsDTANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMjA4MDEwODI1MjJaFw0yMjEwMjQw
+ODI1MjFaMBkxFzAVBgNVBAMTDnd3dy5nb29nbGUuY29tMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAjnLq7IMiJomwPVHsIP/GW3PBVGdNrEy6hP6DJYiU
+II2Fdb/2kQUbQYq6gCMpyU9aoE8OTu4vVPgsRFB3GTzyA8q2npKl2mljJHu+4AzC
+VGmJVxcqd3oI+euKOU+wn30gqnyBXO8vCUC1VK3JNvpKwU2LxgJMecHma/0ckl39
+0kkMcg/ZDSntcxP8nUGOioN+Gj7HT284et2aqc9JCau3UbyQwDKxnBaL8IETQnbs
+rRL1bIuthd0MN9tyw/1XWOBBTNPq+IkkM3RCdE7oLcqmKZhLaXTNUQq+Foi9hfnI
+wSE0PXgex0NWHcOESIeQA7dmNGxswfKsQqkIFxEI4PyAJwIDAQABo4ICaDCCAmQw
+DgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQC
+MAAwHQYDVR0OBBYEFIzcuiP1GCJP7IlFvTNnGg785aClMB8GA1UdIwQYMBaAFIp0
+f6+Fze6VzT2c0OJGFPNxNR0nMGoGCCsGAQUFBwEBBF4wXDAnBggrBgEFBQcwAYYb
+aHR0cDovL29jc3AucGtpLmdvb2cvZ3RzMWMzMDEGCCsGAQUFBzAChiVodHRwOi8v
+cGtpLmdvb2cvcmVwby9jZXJ0cy9ndHMxYzMuZGVyMBkGA1UdEQQSMBCCDnd3dy5n
+b29nbGUuY29tMCEGA1UdIAQaMBgwCAYGZ4EMAQIBMAwGCisGAQQB1nkCBQMwPAYD
+VR0fBDUwMzAxoC+gLYYraHR0cDovL2NybHMucGtpLmdvb2cvZ3RzMWMzL1FxRnhi
+aTlNNDhjLmNybDCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AAWcAdMg4AeEE5WA
+SY0RfJAyZq+vclC1rztGpD4RhA1KAAABgli5cYEAAAQDAEgwRgIhAMVz2eU4j54I
+w/Sl5hV6o5/DdFjpzPFKwn2bzdjxJTYaAiEAxFV84dG1fcRq8FevDpRybzhJzFv7
+JVHNOc5NtE3YlvsAdgBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAA
+AYJYuXGSAAAEAwBHMEUCIEEQHSSF4pQUJ1pkfNuDINHnDOYJsrAYC8RwGv3jFgDw
+AiEA62iNrQkBIU9R+m48uYBtn9MaVYLrVlJL9o+dcBSHvb0wDQYJKoZIhvcNAQEL
+BQADggEBAADUUKQ9+y6Y6mMARgqcKd2XcqK8faanK8S5mshrd267AOj9YJQfuX8A
+Jzk4a40yrIdpZRCyG+SgiD2Gi4SyvrXe97Jhl4wHylJXptsm6P/cgTWhPulVRIAj
+2rnDMyzPOIortp22ngykd1LrJMWpnjTMpf+n9lFjWNgR2mhqr55PptxG1ATw90gG
+pYuMq9WUIPtlNmurzBpMpX4RH3+Vh7sjzkzK1TJeFTg3eAizkP3YLzgiNb6qZNb4
+1yI3vzbCo2FE1SdbWYzXTo04scjgyb3RcBKVENyEO3fr7rFKHSGNo/DgwPa07mBH
+qAw6MUJiT10t8UXa2EacU/0PA8ECFqc=
+-----END CERTIFICATE-----
+subject=/CN=www.google.com
+issuer=/C=US/O=Google Trust Services LLC/CN=GTS CA 1C3
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, X25519, 253 bits
+---
+SSL handshake has read 4864 bytes and written 281 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-CHACHA20-POLY1305
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-CHACHA20-POLY1305
+    Session-ID: 9E378B63D78B756F206ED7DB7E285969A2C9E3293E9CE190DEC66B750B5330C7
+    Session-ID-ctx: 
+    Master-Key: 1E74846E70EC1534E796D60A6563BAA1D46165FAB153119F378AC9AF02A235EDEB73381B614E86CA677E40798E3550BF
+    TLS session ticket lifetime hint: 100800 (seconds)
+    TLS session ticket:
+    0000 - 02 f7 e4 05 67 a8 13 a3-cd 55 a2 12 ca 88 f2 f7   ....g....U......
+    0010 - 3c ef ad a4 90 18 73 d6-e0 37 d0 fe 85 f3 65 2b   <.....s..7....e+
+    0020 - c8 12 5e 97 14 b3 9f 37-32 fe 4c c2 00 00 bd 2c   ..^....72.L....,
+    0030 - 21 52 03 8b fe 38 e6 35-48 e6 d5 12 8f b0 20 92   !R...8.5H..... .
+    0040 - d7 7e 52 da 65 f4 33 7d-df 1e 7b 3b 0c 1e e1 59   .~R.e.3}..{;...Y
+    0050 - b1 e3 0b f0 8f d1 58 ea-04 14 56 d7 86 cd 47 18   ......X...V...G.
+    0060 - a6 3b 57 fe 3c 7f 8a 8e-f5 a2 f7 ad 80 b6 11 60   .;W.<..........`
+    0070 - d9 96 28 50 ae 66 52 7d-09 e4 a9 7e ab d3 e4 25   ..(P.fR}...~...%
+    0080 - a7 2b b2 cd c7 91 c5 79-c2 e4 14 e2 d1 2b 86 78   .+.....y.....+.x
+    0090 - 24 a1 bb 52 14 d5 69 77-5d d4 ca 37 7a ae 3d 5f   $..R..iw]..7z.=_
+    00a0 - 96 84 c5 ff f0 cf 88 90-11 b5 83 91 fe ba 8e 24   ...............$
+    00b0 - c8 54 77 ea df 41 07 74-2a ef 1e a3 e4 73 a2 d9   .Tw..A.t*....s..
+    00c0 - a1 2e 80 0b d0 80 19 dc-80 99 0b f0 53 52 eb fb   ............SR..
+    00d0 - fa 5d 74 c2 2e 4e 52 54-2a 80 84 b9 2e 69 6c b6   .]t..NRT*....il.
+
+    Start Time: 1660989533
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---
